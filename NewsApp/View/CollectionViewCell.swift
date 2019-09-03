@@ -13,4 +13,16 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var NewsImage: UIImageView!
     
     @IBOutlet weak var NewsTitle: UILabel!
+    
+    @IBOutlet weak var DescLabel: UILabel!
+    override func awakeFromNib() {
+        clipsToBounds = true
+        layer.cornerRadius = 10
+        
+        NewsImage.layer.cornerRadius = 18
+        NewsTitle.layer.cornerRadius = 18
+        DescLabel.layer.cornerRadius = 18
+        
+    }
+    
 }

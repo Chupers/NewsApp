@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D80FC9B6231BCDBA00F34742 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80FC9B5231BCDBA00F34742 /* CollectionViewCell.swift */; };
+		D82BFDE5231D5882003261C5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82BFDE4231D5882003261C5 /* DetailViewController.swift */; };
 		D8427D00231975720014FF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8427CFF231975720014FF58 /* AppDelegate.swift */; };
 		D8427D02231975720014FF58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8427D01231975720014FF58 /* ViewController.swift */; };
 		D8427D05231975730014FF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8427D03231975730014FF58 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		D80FC9B5231BCDBA00F34742 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D82BFDE4231D5882003261C5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D8427CFC231975720014FF58 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8427CFF231975720014FF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8427D01231975720014FF58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		D8427D14231975980014FF58 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D82BFDE4231D5882003261C5 /* DetailViewController.swift */,
 				D8427D01231975720014FF58 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -179,6 +182,7 @@
 				D80FC9B6231BCDBA00F34742 /* CollectionViewCell.swift in Sources */,
 				D8427D1923197C410014FF58 /* NewsCard.swift in Sources */,
 				D8427D02231975720014FF58 /* ViewController.swift in Sources */,
+				D82BFDE5231D5882003261C5 /* DetailViewController.swift in Sources */,
 				D8427D00231975720014FF58 /* AppDelegate.swift in Sources */,
 				D8427D08231975740014FF58 /* NewsApp.xcdatamodeld in Sources */,
 			);
